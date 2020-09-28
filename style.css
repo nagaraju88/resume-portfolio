@@ -1,6 +1,5 @@
- *{
+       *{
             font-family: sans-serif;
-            font-size: 18px;
         }
         .main{
             margin: 130px auto;
@@ -13,6 +12,7 @@
         p{
             margin-left: 80px;
             line-height: 30px;
+            font-size: 16px;
         }
         table{
             border-collapse: collapse;
@@ -21,9 +21,15 @@
         table tr th,td{
             padding: 20px;
         }
+        table tr td{
+           font-size: 16px;            
+        }
         ul{
             margin-left: 50px;
             line-height: 35px;
+        }
+        ul li{
+            font-size: 16px;
         }
         .bold-left{
             float: left;
