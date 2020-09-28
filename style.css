@@ -1,0 +1,36 @@
+ *{
+            font-family: sans-serif;
+        }
+        .main{
+            margin: 130px auto;
+            width: 1200px;
+        }
+        .bold{
+            font-weight: 600;
+            line-height: 20px;
+        }
+        p{
+            margin-left: 80px;
+            line-height: 30px;
+            font-size: 20px;
+        }
+        table{
+            border-collapse: collapse;
+            margin-left: 50px;
+        }
+        table tr th,td{
+            padding: 25px;
+        }
+        ul{
+            margin-left: 50px;
+            font-size: 20px;
+            line-height: 35px;
+        }
+        .bold-left{
+            float: left;
+            font-weight: 600;
+        }
+        .bold-right{
+            float: right;
+            font-weight: 600;
+        }
