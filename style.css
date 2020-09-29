@@ -1,41 +1,39 @@
-       *{
-            font-family: sans-serif;
-        }
-        .main{
-            margin: 130px auto;
-            width: 900px;
+.main{
+            width: 800px;
+            margin: 53px auto;
         }
         .bold{
             font-weight: 600;
-            line-height: 20px;
         }
         p{
-            margin-left: 80px;
+            margin-left: 30px;
             line-height: 30px;
-            font-size: 16px;
         }
         table{
+            margin: 15px 20px;
             border-collapse: collapse;
-            margin-left: 50px;
         }
         table tr th,td{
-            padding: 20px;
+            padding: 10px;
         }
-        table tr td{
-           font-size: 16px;            
-        }
-        ul{
-            margin-left: 50px;
-            line-height: 35px;
+        .details tbody{
+            text-align: center;
         }
         ul li{
-            font-size: 16px;
+            line-height: 30px;
+            margin-left: 22px;
         }
-        .bold-left{
+        .profiledetails{
+            margin-left: 25px;
+        }
+        .profiledetails tbody td{
+            padding: 20px;
+        }
+        .date{
+            font-weight: 600;
             float: left;
-            font-weight: 600;
         }
-        .bold-right{
-            float: right;
+        .signature{
             font-weight: 600;
+            float: right;
         }
