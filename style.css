@@ -1,43 +1,87 @@
-.main{
-            width: 800px;
-            margin: 53px auto;
-        }
-        .bold{
-            font-weight: 600;
-        }
-        p{
-            margin-left: 30px;
-            line-height: 30px;
-            font-size: 14px;
-        }
-        table{
-            margin: 15px 20px;
-            border-collapse: collapse;
-        }
-        table tr th,td{
-            padding: 15px;
-            font-size: 14px;
-        }
-        .details tbody{
-            text-align: center;
-        }
-        ul li{
-            line-height: 30px;
-            margin-left: 22px;
-            font-size: 14px;
-        }
-        .profiledetails{
-            margin-left: 25px;
-        }
-        .profiledetails tbody td{
-            font-size: 14px;
-            padding: 20px;
-        }
-        .date{
-            font-weight: 600;
-            float: left;
-        }
-        .signature{
-            font-weight: 600;
-            float: right;
-        }
+            *{
+		font-family: sans-serif;
+		font-size: 15px;
+	}
+	body{
+		width: 700px;
+		height: auto;
+		margin: 50px auto;
+	}
+	header{
+		height: 235px;
+		border-bottom: 2px solid #a7a7a7;
+	}
+	header div{
+		margin: 65px 0px;
+		float: left;
+	}
+	header div.left b{
+		font-size: 24px;
+		font-weight: 200;
+		letter-spacing: 1px;
+	}
+	div.left > p{
+		letter-spacing: 1px;
+		line-height: 28px;
+	}
+	div.right{
+		margin-top: 120px;
+		float: right;
+		letter-spacing: 0.6px;
+		line-height: 28px;
+		direction: rtl;
+	}
+	div.right > b{
+		font-weight: 300;
+	}
+	.clear{
+		clear: both;
+	}
+	.main h4{
+		font-weight: 200;
+		font-size: 18px;
+		font-style: italic;
+	}
+	.main p{
+		line-height: 28px;
+	} 
+	.main > p.indent {
+		text-indent: 50px;
+	}
+	.main > b{
+		font-weight: 200;
+	}
+	.main a{
+		line-height: 28px;
+		letter-spacing: 0.8px;
+	}
+	.workshop{
+		margin-top: 20px;
+	}
+	h3{
+		font-size: 21px;
+		font-weight: 300;
+	}
+	.workshop > ul{
+		line-height: 28px;
+	}
+	table,tr,td{
+		border: 2px groove #333;
+	}
+	table{
+		border-collapse: collapse;
+	}
+	tr td{
+		padding: 8px;
+	}
+	.main .lang{
+		float: left;
+		margin-right: 50px;
+	}
+            .main .langs{
+    	            margin-top: -4px;
+             }
+            .main .lange{
+    	            float: left;
+    	            margin-right: 103px;
+            }
